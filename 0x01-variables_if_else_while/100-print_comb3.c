@@ -11,6 +11,8 @@ int main(void)
 	{
 		for (y = 0; y < 10; y++)
 		{
+			if (x == 0 && y == 0)
+				continue;
 			putchar((x % 10) + '0');
 			putchar((y % 10) + '0');
 			if (x == 9 && y == 9)
