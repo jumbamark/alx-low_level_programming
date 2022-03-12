@@ -24,7 +24,18 @@
     > - Numbers should be printed in ascending order
     >
     > * You are not allowed to use any variable of type char
-* **100-print_comb3.c** 
+* **100-print_comb3.c** - prints all possible different combinations of two digits.
+    > * Numbers must be separated by ,, followed by a space
+    > 
+    > - The two digits must be different
+    >
+    > * 01 and 10 are considered the same combination of the two digits 0 and 1
+    >
+    > - Print only the smallest combination of two digits
+    >
+    > * Numbers should be printed in ascending order, with two digits
+    > 
+    > - You are not allowed to use any variable of type char
 * **101-print_comb4.c**  -  prints all possible different combinations of three digits
     > * Numbers must be separated by ,, followed by a space
     > 
