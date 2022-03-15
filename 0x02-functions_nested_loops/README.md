@@ -24,3 +24,12 @@
 * **100-times_table.c** - prints the n times table, starting with 0.
     > * Prototype: void print_times_table(int n); 
     > - If n is greater than 15 or less than 0 the function should not print anything
+* **101-natural.c** - program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line
+* **102-fibonacci.c** - program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+    > The numbers must be separated by comma, followed by a space `, `
+* **103-fibonacci.c** - program that finds and prints the sum of the even-valued terms, followed by a new line by considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000,
+* **104-fibonacci.c** -  program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+    > * The numbers should be separated by comma, followed by a space `,`
+    > - You are not allowed to use any other library (You can’t use GMP etc…)
+    > * You are not allowed to use long long, malloc, pointers, arrays/tables, or structures
+    > - You are not allowed to hard code any Fibonacci number (except for 1 and 2)
