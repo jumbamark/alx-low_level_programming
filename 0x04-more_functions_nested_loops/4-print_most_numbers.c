@@ -7,9 +7,9 @@
 
 void print_most_numbers(void)
 {
-	int x = 0;
+	int x;
 
-	for {x; x < 10; x++)
+	for {x =0; x < 10; x++)
 	{
 		if ((x + '0' == 2) && (x + '0' == 4))
 			continue;
