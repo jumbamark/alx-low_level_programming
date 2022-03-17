@@ -15,3 +15,5 @@
 * **10-print_triangle.c** - prints a triangle, followed by a new line
     > * If size is 0 or less, the function should print only a new line
     > - Use the character # to print the triangle
+* **100-prime_factor.c** - prints the largest prime factor of the number `612852475143`, followed by a new line.
+* **101-print_number.c** - prints an integer
