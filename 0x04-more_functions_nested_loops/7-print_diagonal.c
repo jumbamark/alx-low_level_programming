@@ -1,7 +1,4 @@
-
-RawBlame
- ￼ ￼
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_diagonal - prints diagonal line n times.
