@@ -17,3 +17,8 @@
     > - The numbers should be displayed in the same order as they are stored in the array
 * **9-strcpy.c** - copies the string pointed to by `src` including the terminating null byte (\0) to the buffer pointed to by `dest`
     > * Return value: the pointer to `dest`
+* **100-atoi.c** - convert a string to an integer
+    > * You need to take into account all the `-` and `+` signs before number
+    > - If there are no numbers in the string, the function must return 0
+* **101-keygen.c** - generates random valid passwords for the program `101-crackme`
+    > * man `srand`,`rand`,`time`
