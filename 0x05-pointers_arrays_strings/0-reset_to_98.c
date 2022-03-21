@@ -4,7 +4,7 @@
  * reset_to_98 - takes a pointer to an int as parameter
  * and updates the value to 98
  *
- * @*n : parameter taken by function
+ * @n : parameter taken by function
  * Return: nothing
  */
 
