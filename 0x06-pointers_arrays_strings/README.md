@@ -4,6 +4,6 @@
     > - Returns a pointer to the resulting string `dest`
 * **1-strncat.c** - concatenates two strings
     > * similar to the first function only that:
-        - it will use `n` bytes from src
-	* `src` does not need to be null-terminated if it contains n or more bytes
+        >> - it will use `n` bytes from src
+	>> * `src` does not need to be null-terminated if it contains n or more bytes
     > - Return a null pointer to the resulting string `dest`
