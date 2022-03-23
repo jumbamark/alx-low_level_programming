@@ -25,4 +25,8 @@
     > * Letters `l` and `L` should be replaced by `1`
     > - Not allowed to `switch` or use ternary operation
     > * Only use one `if` and two loops in your code
-*
+* **100-rot13.c** - encodes a string using rot13
+* **101-print_number.c** - prints an integer
+* **102-magic.c** - add one line to the code so that the program prints `a[2] = 98` followed by a new line
+* **103-infinite_add.c** - adds two numbers
+* **104-print_buffer.c** - prints a buffer
