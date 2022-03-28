@@ -9,17 +9,24 @@
  * or NULL if the substring is not found
  */
 
-char *_strpbrk(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i, j;
+	char *bhaystack;
+	char *pneedle;
 
-	for (i = 0; *(s + i) != '\0'; i++)
+	while (*haystack != '\0')
 	{
-		for (j = 0; *(accept + j) != '\0'; j++)
+		bhaystack = haystack;
+		pneedle = needle;
+
+		while (*haystack != '\0' && *pneedle != '\0' && *haystack == *pneedle)
 		{
-			if (*(s + i) == *(accept + j))
-				return (s + i);
+			haystack++;
+			pneedle++;
 		}
+		if (!*pneedle)
+			return (bhaystack);
+		haystack = bhaystack + 1;
 	}
-	return ('\0');
+	return (0);
 }
