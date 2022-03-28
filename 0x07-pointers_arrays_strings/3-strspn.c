@@ -20,8 +20,11 @@ unsigned int _strspn(char *s, char *accept)
 		bool = 0;
 		for (j = 0; accept[j] != '\0'; j++)
 		{
-			f++;
-			bool = 1;
+			if (s[i] == accept[j])
+			{
+			        f++;
+			        bool = 1;
+			}
 		}
 		if (bool == 0)
 		{
