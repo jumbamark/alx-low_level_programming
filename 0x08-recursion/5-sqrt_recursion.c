@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * actual_sqrt_recursion - recurses to find
