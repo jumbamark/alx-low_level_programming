@@ -1,12 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiples two numbers
  * @argc: number of line arguments
  * @argv: array that contains the program command line arguments
+ *
+ * @Returns: 0 - success.
  */
 
-int main(int arg, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
