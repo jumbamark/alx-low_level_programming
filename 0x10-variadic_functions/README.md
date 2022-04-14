@@ -9,7 +9,7 @@
 >> if one of the string is NULL, print '(nil)` instead
 - **3-print_all.c** - function that prints anything
 >> where format is a list of arguments passed to the function
-    * `c`: `char`
-    - `i`: `integer`
-    * `f`: `float`
-    - `s`: `char * ` (if the string is NULL, print `(nil)` instead
+    >> * `c`: `char`
+    >> - `i`: `integer`
+    >> * `f`: `float`
+    >> - `s`: `char * ` (if the string is NULL, print `(nil)` instead
