@@ -1,9 +1,9 @@
-#include "variable_funcions.h"
+#include "variadic_functions.h"
 
-/** print_all -prints anything
+/**
+ * print_all - prints anything
  * @format: list of types of arguments passed to the function
  */
-
 void print_all(const char * const format, ...)
 {
 	int i = 0;
@@ -26,7 +26,7 @@ void print_all(const char * const format, ...)
 					printf("%s%d", sep, va_arg(list, int));
 					break;
 				case 'f':
-					printf("%s%f", sep, var_arg(list, double));
+					printf("%s%f", sep, va_arg(list, double));
 					break;
 				case 's':
 					str = va_arg(list, char *);
