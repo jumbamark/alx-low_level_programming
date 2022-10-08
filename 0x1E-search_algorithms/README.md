@@ -66,7 +66,7 @@ mandatory
 
 Score: 0.00% (Checks completed: 0.00%)
 
-Write a function that searches for a value in an array of integers using the [Linear search algorithm](https://alx-intranet.hbtn.io/rltoken/17RKhbmvh_u4ebCwaSxCxg "Linear search algorithm")
+Write a function that searches for a value in an array of integers using the [Linear search algorithm](https://en.wikipedia.org/wiki/Linear_search)
 
 -   Prototype : `int linear_search(int *array, size_t size, int value);`
 -   Where `array` is a pointer to the first element of the array to search in
@@ -140,7 +140,7 @@ mandatory
 
 Score: 0.00% (Checks completed: 0.00%)
 
-Write a function that searches for a value in a sorted array of integers using the [Binary search algorithm](https://alx-intranet.hbtn.io/rltoken/SnveFJhSDE7o8bEx-kGGpA "Binary search algorithm")
+Write a function that searches for a value in a sorted array of integers using the [Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 -   Prototype : `int binary_search(int *array, size_t size, int value);`
 -   Where `array` is a pointer to the first element of the array to search in
